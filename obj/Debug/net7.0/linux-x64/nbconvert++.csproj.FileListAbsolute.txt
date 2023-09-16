@@ -422,3 +422,4 @@ F:\repo\cloudinteractive-nbconvert\obj\Debug\net7.0\linux-x64\refint\nbconvert++
 F:\repo\cloudinteractive-nbconvert\obj\Debug\net7.0\linux-x64\nbconvert++.pdb
 F:\repo\cloudinteractive-nbconvert\obj\Debug\net7.0\linux-x64\nbconvert++.genruntimeconfig.cache
 F:\repo\cloudinteractive-nbconvert\obj\Debug\net7.0\linux-x64\ref\nbconvert++.dll
+F:\repo\cloudinteractive-nbconvert\bin\Debug\net7.0\linux-x64\default.html
