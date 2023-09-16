@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>cloudinteractive.nbconvert</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <Title>cloudinteractive-nbconvert++</Title>
+    <Authors>CloudInteractive Inc.</Authors>
+    <Company>CloudInteractive Inc.</Company>
+    <Copyright>Copyright (C) 2023 CloudInteractive Inc.</Copyright>
+    <Description>nbconverter wrapper</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.12.4" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="117.0.5938.6200" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

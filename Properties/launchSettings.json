@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "nbconvert++": {
+      "commandName": "Project",
+      "commandLineArgs": "test.ipynb --cover-template=\"template.html\" --title=\"테스트\""
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "commandLineArgs": "nbconvert++.dll /home/test.ipynb --title=\"테스트\"",
+      "distributionName": ""
+    }
+  }
+}
