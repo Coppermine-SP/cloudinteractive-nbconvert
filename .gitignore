@@ -12,9 +12,10 @@
 [Rr]elease/
 bin/[Dd]bug/
 bin/[Rr]elease/
-bin/publish/linux-x64/*
+bin/publish/linux-x64/
 x64/
 [Oo]bj/
+.vs
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
