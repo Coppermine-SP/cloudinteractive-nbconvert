@@ -2,6 +2,10 @@
 
 Convert your Jupyter Notebook along with a fully customizable cover page to PDF.
 
+This tool is designed for those who wish to easily convert their Jupyter Notebooks into PDFs with the added benefit of a customizable HTML-based cover page.
+
+Awesome for your coding assignment.
+
 ## Features
 * Fully customizable HTML-based cover page
 * Integration into Visual Studio Code (via task.json)
