@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Creating symbolic link.."
+ln -s /usr/lib/cloudinteractive-nbconvert/nbconvert++ /usr/bin/nbconvert++
+chmod 0777 /usr/lib/cloudinteractive-nbconvert/nbconvert++ 
+echo -e "You should install Chrome for Selenium to work.\nhttps://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"

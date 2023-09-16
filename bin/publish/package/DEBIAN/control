@@ -1,0 +1,7 @@
+Package: cloudinteractive-nbconvert
+Version: 1.0.0
+Maintainer: copperminesp <coppermine@cloudinteractive.net>
+Description: Fancy style Jupyter Notebook to pdf converter.
+Homepage: https://dev.cloudinteractive.net
+Architecture: amd64
+Depends: jupyter-nbconvert
