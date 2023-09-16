@@ -53,7 +53,7 @@ If you're not using Debian-based Linux distribution, manually copy the binaries.
 ## How to use
 
 ## Showcase 
- <img src="https://github.com/Coppermine-SP/cloudinteractive-nbconvert/assets/10647913/8880af25-1cac-478d-8657-0b481eeed67d">
+ <img src="/images/code_sample.png">
 
  
- <img src="https://github.com/Coppermine-SP/cloudinteractive-nbconvert/assets/10647913/e26fe91a-25c0-42c5-9eab-7e4f15bee3b9">
+ <img src="/images/pdf_sample.png">
