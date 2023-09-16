@@ -18,6 +18,7 @@ namespace cloudinteractive.nbconvert
             var driverOptions = new ChromeOptions();
             driverOptions.AddArgument("headless");
             driverOptions.AddArgument("no-sandbox");
+            driverOptions.AddArgument("disable-dev-shm-usage");
 
             Console.WriteLine($"Converting {fileLocation} to PDF document...");
             using (var driver = new ChromeDriver(driverOptions))

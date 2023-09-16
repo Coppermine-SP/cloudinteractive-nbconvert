@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JgLKs8J5gvt7lgX7yODvigZvwuEvA/lDBZmghQNM7s0pz171ekG6b05ayoUCJ9Uwv8e8hML+EY3jVsYsG4zQjA==",
+  "dgSpecHash": "qIbU6j22+s5h4lG1sTnx2sVb8LOcUw+zbZY0z+Kk9q7q7vokj+n3WKSg4wO2SLgFQ2hcw9HzOfa6uNdRHmwmvQ==",
   "success": true,
-  "projectFilePath": "F:\\repo\\nbconvert++\\nbconvert++.csproj",
+  "projectFilePath": "F:\\repo\\cloudinteractive-nbconvert\\nbconvert++.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Coppermine\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Coppermine\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.19.0\\microsoft.identitymodel.abstractions.6.19.0.nupkg.sha512",

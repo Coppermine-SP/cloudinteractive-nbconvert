@@ -6,7 +6,7 @@
     },
     "WSL": {
       "commandName": "WSL2",
-      "commandLineArgs": "nbconvert++.dll /home/test.ipynb --title=\"테스트\"",
+      "commandLineArgs": "nbconvert++.dll /home/test.ipynb --tiftle=\"테스트\"",
       "distributionName": ""
     }
   }

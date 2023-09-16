@@ -604,11 +604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\repo\\nbconvert++\\nbconvert++.csproj",
+      "projectUniqueName": "F:\\repo\\cloudinteractive-nbconvert\\nbconvert++.csproj",
       "projectName": "nbconvert++",
-      "projectPath": "F:\\repo\\nbconvert++\\nbconvert++.csproj",
+      "projectPath": "F:\\repo\\cloudinteractive-nbconvert\\nbconvert++.csproj",
       "packagesPath": "C:\\Users\\Coppermine\\.nuget\\packages\\",
-      "outputPath": "F:\\repo\\nbconvert++\\obj\\",
+      "outputPath": "F:\\repo\\cloudinteractive-nbconvert\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

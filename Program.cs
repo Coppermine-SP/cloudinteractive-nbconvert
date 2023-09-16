@@ -1,6 +1,6 @@
 ﻿
 //cloudinteractive.nbconvert++
-//Copyright(C) 2023 CloudInteractive Inc.
+//Copyright(C) 2023 CloudInteractive.
 
 using System.IO;
 using System.Reflection;
@@ -19,7 +19,7 @@ namespace cloudinteractive.nbconvert
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"CloudInteractive(R) nbconvert++ {Assembly.GetEntryAssembly()?.GetCustomAttribute<AssemblyFileVersionAttribute>()?.Version}\nCopyright (C) 2023 CloudInteractive Inc.\n");
+            Console.WriteLine($"nbconvert++ {Assembly.GetEntryAssembly()?.GetCustomAttribute<AssemblyFileVersionAttribute>()?.Version}\nCopyright (C) 2023 CloudInteractive Inc.\n");
             if (args.Length == 0 || (args[0] ?? String.Empty) == "--help")
             {
                 Console.WriteLine("Usage: nbconvert++ <File location> <Options>\n" +
@@ -59,6 +59,7 @@ namespace cloudinteractive.nbconvert
                 if (arg.Length != 2 || args.All(x => String.IsNullOrWhiteSpace(x)))
                 {
                     Console.WriteLine($"[WARNING] option '{args[i]}' is invalid. ignoring.");
+                    Console.WriteLine("$To show help string, run with --help argument.");
                     continue;
                 }
 
@@ -90,6 +91,7 @@ namespace cloudinteractive.nbconvert
                 else
                 {
                     Console.WriteLine($"[WARNING] option '{args[i]}' is invalid, ignoring.");
+                    Console.WriteLine("To show help string, run with --help argument.");
                 }
             }
 

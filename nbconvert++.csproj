@@ -10,8 +10,11 @@
     <Title>cloudinteractive-nbconvert++</Title>
     <Authors>CloudInteractive Inc.</Authors>
     <Company>CloudInteractive Inc.</Company>
-    <Copyright>Copyright (C) 2023 CloudInteractive Inc.</Copyright>
+    <Copyright>Copyright (C) 2023 CloudInteractive.</Copyright>
     <Description>nbconverter wrapper</Description>
+    <AssemblyVersion>1.1.0.2</AssemblyVersion>
+    <FileVersion>1.1.0.2</FileVersion>
+    <SignAssembly>False</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +22,12 @@
     <PackageReference Include="Selenium.WebDriver" Version="4.12.4" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="117.0.5938.6200" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="default.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
