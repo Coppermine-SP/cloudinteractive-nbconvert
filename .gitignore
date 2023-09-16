@@ -15,7 +15,7 @@ bin/[Rr]elease/
 bin/publish/linux-x64/
 x64/
 [Oo]bj/
-.vs
+.vs/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
