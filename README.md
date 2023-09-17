@@ -77,7 +77,7 @@ Convert ```test.ipynb``` file with your custom cover page:
 ```bash
 nbconvert++ test.ipynb --cover-template="[location of your template]" --title="My Awesome assignment."
 ```
-### Customizing Cover Template.
+### Customizing Cover Template
 You can either modify the default template or start from an empty HTML document. 
 
 
@@ -87,7 +87,7 @@ file://home/coppermine/your_cover_template?title="My Awesome assignment."
 ```
 ChromeDriver will capture the page in A4 size with minimal margin.
 
-### Customizing Jupyter Notebook Style.
+### Customizing Jupyter Notebook Style
 To alter the style of the Jupyter Notebook, adjust the jupyter-nbconvert template's CSS file.
 
 
