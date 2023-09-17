@@ -22,12 +22,13 @@ Awesome for your coding assignment.
 * Integration into Visual Studio Code (via task.json)
 
 ## Requirements
+**Currently, Support only Linux-x64 platform.**
+
 This project uses Selenium ChromeDriver for converting HTML to PDF.
 
 Make sure you have installed [Google Chrome](https://www.google.com/chrome/).
 
 #### Step-by-Step
-**Support only Linux-x64 platform.**
 Debian-based Linux distributions:
 
 ```bash
