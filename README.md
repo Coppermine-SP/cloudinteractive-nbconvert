@@ -6,6 +6,10 @@ This tool is designed for those who wish to easily convert their Jupyter Noteboo
 
 Awesome for your coding assignment.
 
+
+**Support Linux-x64 platform.**
+
+
 ## Features
 * Fully customizable HTML-based cover page
 * Integration into Visual Studio Code (via task.json)
@@ -28,9 +32,6 @@ RHEL, CentOS, Fedora:
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 sudo yum install google-chrome-stable_current_x86_64.rpm
 ```
-
-**Support Linux-x64 platform.**
-
 
 ## Installation
 
