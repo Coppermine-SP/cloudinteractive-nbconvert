@@ -6,8 +6,15 @@ This tool is designed for those who wish to easily convert their Jupyter Noteboo
 
 Awesome for your coding assignment.
 
+### Table of Contents
+* [Features](#features)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [How to use](#how-to-use)
+* [Dependencies](#dependencies)
+* [Showcase](#showcase)
 
-**Support Linux-x64 platform.**
+
 
 
 ## Features
@@ -20,6 +27,7 @@ This project uses Selenium ChromeDriver for converting HTML to PDF.
 Make sure you have installed [Google Chrome](https://www.google.com/chrome/).
 
 #### Step-by-Step
+**Support only Linux-x64 platform.**
 Debian-based Linux distributions:
 
 ```bash
@@ -54,7 +62,45 @@ Execute ./bin/publish/make_debian_package.sh to create the .deb file.
 If you're not using Debian-based Linux distribution, manually copy the binaries.
 
 ## How to use
+Convert ```test.ipynb``` file without cover page:
+```bash
+nbconvert++ test.ipynb
+```
 
+Convert ```test.ipynb``` file with default cover page:
+```bash
+nbconvert++ test.ipynb --cover-template="/usr/lib/cloudinteractive-nbconbvert/default.html" --title="My Awesome assignment."
+```
+
+Convert ```test.ipynb``` file with your custom cover page:
+```bash
+nbconvert++ test.ipynb --cover-template="[location of your template]" --title="My Awesome assignment."
+```
+### Customizing the Cover Template.
+You can either modify the default template or start from an empty HTML document. 
+
+
+The title will be provided through the URL Query:
+```
+file://home/coppermine/your_cover_template?title="My Awesome assignment."
+```
+ChromeDriver will capture the page in A4 size with minimal margin.
+
+### Customizing the Jupyter Notebook Style.
+To alter the style of the Jupyter Notebook, adjust the jupyter-nbconvert template's CSS file.
+
+
+This file is typically found at :
+```
+/home/[User Name]/.local/share/jupyter/nbconvert/templates/lab/static/theme-light.css
+```
+
+## Dependencies
+* [PDFsharp](https://www.nuget.org/packages/PDFsharp/1.50.5147/) - MIT License
+* [Selenium.WebDriver](https://www.nuget.org/packages/Selenium.WebDriver/4.12.4/) - Apache-2.0 License
+* [Selenium.WebDriver.ChromeDriver](https://www.nuget.org/packages/Selenium.WebDriver.ChromeDriver/117.0.5938.6200/) - Unlicense
+* [System.Text.Encoding.CodePages](https://www.nuget.org/packages/System.Text.Encoding.CodePages/7.0.0/) - MIT License
+  
 ## Showcase 
  <img src="/images/code_sample.png">
 
