@@ -85,7 +85,7 @@ The title will be provided through the URL Query:
 ```
 file://home/coppermine/your_cover_template?title="My Awesome assignment."
 ```
-ChromeDriver will capture the page in A4 size with minimal margin.
+ChromeDriver will capture the page in A4 size with default margin.
 
 ### Customizing Jupyter Notebook Style
 To alter the style of the Jupyter Notebook, adjust the jupyter-nbconvert template's CSS file.
