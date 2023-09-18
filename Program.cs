@@ -115,7 +115,13 @@ namespace cloudinteractive.nbconvert
                 }
 
                 Console.WriteLine("Deleting all temp files..");
-                Helper.Run($"find {_workingPath} -name \"*{_guid}*\" -delete");
+
+                DirectoryInfo di = new DirectoryInfo(_workingPath);
+                FileInfo[] files = di.GetFiles("*{_guid}*");
+                foreach (FileInfo file in files)
+                {
+                    file.Delete();
+                }
                 Console.WriteLine("Complete!");
 
             }
