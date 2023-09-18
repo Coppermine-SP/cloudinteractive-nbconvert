@@ -12,9 +12,11 @@
     <Company>CloudInteractive Inc.</Company>
     <Copyright>Copyright (C) 2023 CloudInteractive.</Copyright>
     <Description>nbconverter wrapper</Description>
-    <AssemblyVersion>1.1.0.2</AssemblyVersion>
-    <FileVersion>1.1.0.2</FileVersion>
+    <AssemblyVersion>1.2.0.2</AssemblyVersion>
+    <FileVersion>1.2.0.2</FileVersion>
     <SignAssembly>False</SignAssembly>
+    <PackAsTool>True</PackAsTool>
+    <PackageOutputPath />
   </PropertyGroup>
 
   <ItemGroup>

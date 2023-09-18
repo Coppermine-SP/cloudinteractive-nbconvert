@@ -1,6 +1,7 @@
 ﻿using System;
 using OpenQA.Selenium;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using System.Text;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -73,7 +74,14 @@ namespace cloudinteractive.nbconvert
         public static void Run(string command)
         {
             Console.WriteLine(command);
-            var startInfo = new ProcessStartInfo(){ FileName="/bin/bash", Arguments = $"-c \"{command}\"", RedirectStandardOutput = true};
+            var startInfo = !RuntimeInformation.IsOSPlatform(OSPlatform.Windows)
+                ? new ProcessStartInfo()
+                    { FileName = "/bin/bash", Arguments = $"-c \"{command}\"", RedirectStandardOutput = true }
+                : new ProcessStartInfo()
+                {
+                    FileName = "cmd.exe", Arguments = $"/c {command}", RedirectStandardOutput = true,
+                    WindowStyle = ProcessWindowStyle.Hidden, UseShellExecute = false
+                };
             using (var process = Process.Start(startInfo))
             {
                 process.OutputDataReceived += (sender, args) => {Console.WriteLine(args);} ;
